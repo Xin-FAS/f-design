@@ -5,39 +5,21 @@
 
 基于Antd 5.0封装的业务型组件
 
-## Usage
-
-TODO
-
-## Options
-
-TODO
+针对业务组件，对antd二次封装组件如下：
+FAntdInput：双向绑定输入框
+FAntdOrderTable：订单类型表格
+FAntdSearchGroup：搜索框布局栏
+FAntdSelect：双向绑定支持异步懒加载搜索框
+FAntdTable：请求表格
+FPasswordScore：密码强度器
+FWrapperRow：通用行布局
 
 ## Development
 
 ```bash
-# install dependencies
 $ pnpm install
-
-# develop library by docs demo
-$ pnpm start
-
-# build library source code
-$ pnpm run build
-
-# build library source code in watch mode
-$ pnpm run build:watch
-
-# build docs
-$ pnpm run docs:build
-
-# Locally preview the production build.
-$ pnpm run docs:preview
-
-# check your project for potential problems
-$ pnpm run doctor
+$ pnpm dev
 ```
 
 ## LICENSE
-
 MIT
