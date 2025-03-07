@@ -1,0 +1,21 @@
+.password-score__wrapper {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+
+    .password-score__item {
+        width: 45px;
+        height: 7px;
+        background-color: #dfdfdf;
+        margin-right: 3px;
+        transition: background-color .5s;
+        border-radius: 10px;
+    }
+
+    .password-score__text {
+        font-size: 13px;
+        margin-left: 10px;
+        transition: .2s;
+        color: #bebebe;
+    }
+}
